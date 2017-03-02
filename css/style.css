@@ -1,0 +1,28 @@
+div{
+border:  
+}
+
+.empty{
+  min-height:150px;
+  text-align: center;
+}
+
+.nav{
+    text-align: center;
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+}
+.nav li{
+  background-image: url();
+  color: pink;
+  display: inline;
+  padding: 20px;
+  font-size: 20px;
+}
+
+}
+
+.big-image{
+text-align: center;
+}
