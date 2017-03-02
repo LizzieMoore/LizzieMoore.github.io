@@ -10,12 +10,13 @@ border:  
 .nav{
     text-align: center;
     display: inline;
+    color: green;
     padding: 20px;
     font-size: 20px;
 }
 .nav li{
   background-image: url();
-  color: pink;
+  color: green;
   display: inline;
   padding: 20px;
   font-size: 20px;
