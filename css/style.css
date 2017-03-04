@@ -1,39 +1,62 @@
-div{
-border:  
+#restaurant-info {
+  font-family: signpainter;
+  color: #EF4135;
+}
+#restaurant-info h1 {
+font-size: 90px;
+margin-bottom: 0px;
 }
 
-.empty{
-  min-height:150px;
-  text-align: center;
+#restaurant-info h3 {
+font-family: Arial;
+color: white;
+letter-spacing: 12px;
+background-color: #EF4135;
+padding: 6px 0px;
+margin-top: 0px;
 }
 
-.nav{
-    text-align: left;
-    display: inline;
-    color: red;
-    padding: 20px;
-    font-size: 20px;
-}
-.nav li{
-  background-image: url();
-  color: red;
-  display: inline;
-  padding: 20px;
-  font-size: 20px;
+#restaurant-info h4 {
+font-family: Arial;
+font-weight: bold;
 }
 
+#restaurant-info .header-side-panel {
+margin-top: 107px;
+font-family: Arial;
+border-top: 1px solid #EF4135;
+border-bottom: 1px solid #EF4135;
 }
 
-.big-image{
-text-align: center;
+#restaurant-info .header-side-panel h5{
+font-weight: bold;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    font-family: signpainter;
-    font-weight: 500;
-    line-height: 1.1;
-    color: inherit;
+#nav{
+margin-top: 30px;
+margin-bottom: 10px;
 }
 
-.title
-    
+#order-online {
+  background: #f00;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+#nav a{
+font-weight: bold;
+color: #EF4135;
+font-size: 17px;
+display: block;
+transition: all .3s ease;
+}
+
+#nav a:hover{
+text-decoration: none;
+background: #EEE;
+}
+
+#nav a:visited{
+color: #EF4135;
+}
