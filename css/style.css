@@ -8,15 +8,15 @@ border:  
 }
 
 .nav{
-    text-align: center;
+    text-align: left;
     display: inline;
-    color: green;
+    color: red;
     padding: 20px;
     font-size: 20px;
 }
 .nav li{
   background-image: url();
-  color: green;
+  color: red;
   display: inline;
   padding: 20px;
   font-size: 20px;
@@ -27,3 +27,13 @@ border:  
 .big-image{
 text-align: center;
 }
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: signpainter;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.title
+    
