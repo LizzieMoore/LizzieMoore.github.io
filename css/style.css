@@ -38,10 +38,14 @@ margin-bottom: 10px;
 }
 
 #order-online {
-  background: #f00;
+  background: #EF4135;
+  color: white;
+  font-weight: bold;
   width: 90px;
   height: 90px;
   border-radius: 50%;
+  position: absolute;
+  padding-top: 25px;
 }
 
 #nav a{
@@ -52,11 +56,43 @@ display: block;
 transition: all .3s ease;
 }
 
-#nav a:hover{
+#nav a:hover,
+#nav a.active{
 text-decoration: none;
 background: #EEE;
 }
 
 #nav a:visited{
 color: #EF4135;
+}
+
+.full-width{
+width: 100%;
+}
+
+#aboutline h6{
+font-family:Arial;
+font-size: 60px;
+font-weight: bold;
+letter-spacing: -1px;
+color: white;
+background:#1249a8;
+padding: 40px;
+}
+
+#menus {
+width: 100%;
+padding-top: 70px;
+padding-bottom: 70px;
+}
+
+footer{
+font-family: Arial;
+color: white;
+background:#1249a8;
+}
+
+#icons{
+width:33%;
+padding:20px;
 }
