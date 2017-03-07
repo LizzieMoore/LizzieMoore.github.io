@@ -45,6 +45,7 @@ margin-bottom: 10px;
   height: 90px;
   border-radius: 50%;
   position: absolute;
+  z-index: 100;
   padding-top: 25px;
 }
 
@@ -94,5 +95,14 @@ background:#1249a8;
 
 #icons{
 width:33%;
-padding:20px;
+padding:30px;
+}
+
+.col-sm-12 {
+font-size: 18px;
+font-family: courier;
+color: #1249a8;
+padding: 40px;
+padding-left: 100px;
+padding-right: 100px;
 }
